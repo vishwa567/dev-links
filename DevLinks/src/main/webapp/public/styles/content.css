@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.6rem;
+}
+
+:root {
+
+    --nav-height: 3rem;
+
+    --font-family: "poppins";
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #ffd000;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    height: var(--nav-height);
+}
+
+.logo {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: #0000006e;
+    text-transform: uppercase;
+}
+
+.logo i {
+    scale: 1.4;
+    color: #000;
+    margin-right: .3rem;
+}
+
+nav ul {
+    display: flex;
+    width: max-content;
+}
+
+.list {
+    width: 7rem;
+    text-align: center;
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-achor {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: .2s;
+}
+
+.nav-icons {
+    margin-right: .2rem;
+}
+
+.list:hover .nav-icons,
+.list:hover .nav-achor {
+    transition-duration: .2s;
+    letter-spacing: .05rem;
+    color: #0000006b;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 3rem 5rem;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-frame  {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+iframe {
+    border-radius: .4rem;
+    background-color: #000;
+}
+
+.video-title {
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 500;
+    width: 18rem;
+}
+
+.file-frame-btn {
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    padding: .7rem 1.5rem;
+    background-color: #000000c5 ;
+    border: none;
+    border-radius: .4rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    letter-spacing: .09rem;
+    text-transform: uppercase;
+}
+
+.file-frame-btn i {
+    margin-right: .5rem;
+}
+
+.file-frame-btn:hover {
+    background-color: #000;
+}
+
+.file-name {
+    font-size: .6rem;
+    font-weight: 500;
+    color: #0000007b;
+    letter-spacing: .009rem;
+}

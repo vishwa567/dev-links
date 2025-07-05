@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.6rem;
+}
+
+:root {
+
+    --nav-height: 3rem;
+    --font-family: "poppins";
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #ffd000;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    height: var(--nav-height);
+}
+
+.logo {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: #0000006e;
+    text-transform: uppercase;
+}
+
+.logo i {
+    scale: 1.4;
+    color: #000;
+    margin-right: .3rem;
+}
+
+nav ul {
+    display: flex;
+    width: max-content;
+}
+
+.list {
+    width: 7rem;
+    text-align: center;
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-achor {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: .2s;
+}
+
+.nav-icons {
+    margin-right: .2rem;
+}
+
+.list:hover .nav-icons,
+.list:hover .nav-achor {
+    transition-duration: .2s;
+    letter-spacing: .05rem;
+    color: #0000006b;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    font-family: "poppins";
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+.lang-heading {
+    color: #d1d1d1;
+}
+
+.lang-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6rem;
+	list-style: none;
+}
+
+.lang-box {
+    text-align: center;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-family: "sora", sans-serif;
+    margin: .3rem;
+    border-radius: .5rem;
+    border: .1rem solid #d1d1d1;
+    background-color: transparent;
+    color: #d1d1d1;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.lang-box:hover {
+    background-color: #ffffff63;
+    color: #ffffffb5;
+    border: none;
+}
+
+.download-btn {
+	width: 8rem;
+	height: 1.7rem;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
