@@ -1,6 +1,3 @@
-Here's a clean and professional project description you can use for your GitHub repository:
-
----
 
 ## 🌐 Programming Language Learning Platform (Java Servlet + JSP + MySQL)
 
@@ -24,6 +21,3 @@ This project is a web-based platform designed to help aspiring developers learn 
 
 The goal of this project is to make programming education more accessible and organized for beginners and intermediate developers. By centralizing video content and learning paths, we aim to simplify the learning journey and support self-taught programmers.
 
----
-
-Let me know if you want to personalize this further (e.g., your name, team, hosting link, screenshots, etc.).
